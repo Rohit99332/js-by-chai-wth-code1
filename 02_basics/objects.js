@@ -87,7 +87,19 @@ const users=[
 ]
 
 users[1].email;
-console.log(tinderUser);
+//console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
+//console.log(Object.keys(tinderUser));
 //console.log(Object.values(tinderUser));
+
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+
+}
+const { courseInstructor:instructor}=course
+
+const {courseInstructor}=course
+console.log(instructor);
